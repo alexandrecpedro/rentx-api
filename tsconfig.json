@@ -1,0 +1,22 @@
+{
+   "compilerOptions": {
+      "target": "ES2022",
+      "experimentalDecorators": true,
+      "emitDecoratorMetadata": true,
+      "module": "Node16",
+      "rootDir": "./",
+      "baseUrl": "./src",
+      "paths": {
+         "@modules/*": ["modules/*"],
+         "@config/*": ["config/*"],
+         "@shared/*": ["shared/*"],
+         "@errors/*": ["errors/*"],
+         "@utils/*": ["utils/*"]
+      },
+      "resolveJsonModule": true,
+      "outDir": "./dist",
+      "esModuleInterop": true,
+      "forceConsistentCasingInFileNames": true,
+      "skipLibCheck": true
+   }
+}
