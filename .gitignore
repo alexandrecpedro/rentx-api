@@ -261,3 +261,5 @@ ormconfig.json
 *.jpeg
 *.svg
 *.csv
+github_actions
+github_actions.pub
